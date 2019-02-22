@@ -26,7 +26,7 @@ function hello(name)
 
 function setUserName()
 {
-  var myName = prompt('Please enter your name');
+  var myName = prompt('Введите своё имя:');
   if(myName === null)
   {
     if(name === null)
@@ -47,6 +47,7 @@ function setUserName()
 
 if(!name)
 {
+  hello('незнакомец');
   setUserName();
 }
 else
