@@ -1,0 +1,47 @@
+html{
+    font-size: 20px;
+    font-family: Roboto;
+    background-color: rgb(73, 70, 70);
+    color: bisque;
+    text-shadow: true;
+    padding: 0px 0px 0px 0px;
+}
+
+ul{
+    color: rgb(24, 199, 91);
+    background-color: rgb(89, 31, 100);
+    border: 1px solid blueviolet;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+h1{
+    display: block;
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 1px rgb(89, 42, 165);
+    background-color: black;
+    padding: 0px 0px 0px 0px;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+a{
+    color: yellow;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(36, 36, 63);
+    padding: 0px 20px 20px 20px;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+}
