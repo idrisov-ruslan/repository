@@ -14,7 +14,7 @@ var myHeading = document.querySelector('h1');
 var name = localStorage.getItem('name');
 function hello(name)
 {
-  if(name === null)
+  if(name === 'null')
   {
     myHeading.innerHTML = 'Привет, незнакомец';
   }
@@ -26,28 +26,18 @@ function hello(name)
 
 function setUserName()
 {
-  var myName = prompt('Введите своё имя:');
-  if(myName === null)
+  var tempName = prompt('Введите своё имя:\n(Enter your name)');
+  if(tempName != null)
   {
-    if(name === null)
-    {
-      myName = 'незнакомец';
-    }
-    else
-    {
-      myName = name;
-    }
+    name = tempName;
   }
-  else
-  {
-    localStorage.setItem('name', myName);
-  }
-  hello(myName);
+  localStorage.setItem('name', name);
+  hello(name);
 }
 
-if(!name)
+if(!name || name === 'null')
 {
-  hello('незнакомец');
+  /*hello(null);*/
   setUserName();
 }
 else
