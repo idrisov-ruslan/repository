@@ -36,7 +36,8 @@ a{
 }
 
 body{
-    width: 600px;
+    width: 440px;
+    height: 650px;
     margin: 0 auto;
     background-color: rgb(36, 36, 63);
     padding: 0px 20px 20px 20px;
