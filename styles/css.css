@@ -5,12 +5,11 @@ html{
     color: bisque;
     text-shadow: true;
     padding: 0px 0px 0px 0px;
-    
 }
 
 ul{
     color: rgb(24, 199, 91);
-    background-color: rgb(89, 31, 100);
+    background-color: rgba(89, 31, 100, 0.5);
     border: 1px solid blueviolet;
     font-size: 16px;
     letter-spacing: 1px;

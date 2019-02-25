@@ -10,7 +10,7 @@ myImage.onclick = function() {
 }
 
 var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h1');
+var myHeading = document.querySelector('h2');
 var name = localStorage.getItem('name');
 function hello(name)
 {
